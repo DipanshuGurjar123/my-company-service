@@ -6,6 +6,7 @@ import { whyChooseUs } from './data/whychooseus'
 import Services from './component/Services'
 import { services } from './data/services'
 import AboutUs from './component/AboutUs'
+import Industries from './component/Industries'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Whychooseus/>
       <Services/>
       <AboutUs/>
+      <Industries/>
     </div>
   )
 }
