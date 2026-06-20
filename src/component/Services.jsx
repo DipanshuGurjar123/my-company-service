@@ -18,8 +18,8 @@ const Services = () => {
     };
 
     return (
-        <section className='max-w-7xl mx-auto px-6 py-10'>
-            <div className='text-center mb-14'>
+        <section className='max-w-7xl mx-auto px-6 py-4'>
+            <div className='text-center mb-10'>
                 <h1 className='text-4xl font-bold mb-7 '>
                     Our Services
                 </h1>
