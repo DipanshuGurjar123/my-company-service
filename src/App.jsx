@@ -5,6 +5,7 @@ import Whychooseus from './component/Whychooseus'
 import { whyChooseUs } from './data/whychooseus'
 import Services from './component/Services'
 import { services } from './data/services'
+import AboutUs from './component/AboutUs'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero/>
       <Whychooseus/>
       <Services/>
+      <AboutUs/>
     </div>
   )
 }

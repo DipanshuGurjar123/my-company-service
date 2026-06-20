@@ -3,7 +3,7 @@ import heroImg from "../assets/marketing-consulting-rafiki.png";
 
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-between gap-10">
+    <section className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-10">
 
       <div className="hero-left flex-1">
         <h1 className='text-4xl md:text-5xl font-bold text-gray-800 leading-tight'>
