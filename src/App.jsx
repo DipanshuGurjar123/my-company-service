@@ -7,17 +7,19 @@ import Services from './component/Services'
 import { services } from './data/services'
 import AboutUs from './component/AboutUs'
 import Industries from './component/Industries'
+import OurTeam from './component/OurTeam'
 
 const App = () => {
   return (
     <div>
       {/* <h1>My react App</h1> */}
-      <Navbar/>
-      <Hero/>
-      <Whychooseus/>
-      <Services/>
-      <AboutUs/>
-      <Industries/>
+      <Navbar />
+      <Hero />
+      <Whychooseus />
+      <Services />
+      <AboutUs />
+      <Industries />
+      <OurTeam />
     </div>
   )
 }

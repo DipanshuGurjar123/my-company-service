@@ -32,13 +32,13 @@ const Services = () => {
 
             <div className='grid md:grid-cols-3 gap-8'>
                 {services.map((service) => (
-                    <div 
-                    key={service.id}
-                    className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300"
+                    <div
+                        key={service.id}
+                        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300"
                     >
                         <div className="text-blue-600 mb-4">
-                            {icons[service.shield]}
-                            </div>
+                            {icons[service.icon]}
+                        </div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-3">{service.title}</h3>
                         <p className='text-gray-600'>{service.description}</p>
                     </div>
