@@ -18,7 +18,7 @@ const Services = () => {
     };
 
     return (
-        <section className='max-w-7xl mx-auto px-6 py-4'>
+        <section className='max-w-7xl mx-auto px-6 py-4 bg-slate-900/10'>
             <div className='text-center mb-10'>
                 <h1 className='text-4xl font-bold mb-7 '>
                     Our Services
@@ -32,13 +32,13 @@ const Services = () => {
 
             <div className='grid md:grid-cols-3 gap-8'>
                 {services.map((service) => (
-                    <div
-                        key={service.id}
-                        className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300"
+                    <div 
+                    key={service.id}
+                    className="py-6 px-10 relative bg-gradient-to-r from-blue-500 to-blue-500 bg-[length:0%_100%] bg-no-repeat hover:bg-[length:100%_100%] transition-all duration-1000 ease-out border border-blue-500 text-blue-500 hover:text-white px-6 py-2 rounded-lg font-semibold"
                     >
                         <div className="text-blue-600 mb-4">
                             {icons[service.icon]}
-                        </div>
+                            </div>
                         <h3 className="text-xl font-semibold text-gray-800 mb-3">{service.title}</h3>
                         <p className='text-gray-600'>{service.description}</p>
                     </div>

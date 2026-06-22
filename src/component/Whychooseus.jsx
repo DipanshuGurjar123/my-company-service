@@ -4,9 +4,11 @@ function WhyChooseUs() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-8">
       <div className="text-center mb-14">
-        <h2 className="text-4xl font-bold text-gray-800">
+        <hr className="border-0 h-[1px] bg-gradient-to-r from-transparent via-gray-500 to-transparent" />
+        <h2 className="text-4xl font-bold text-gray-800 p-4 ">
           Why Choose Us?
         </h2>
+        <hr className="border-0 h-[1.5px] bg-gradient-to-r from-transparent via-gray-500 to-transparent" />
 
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
           Trusted consulting, certification and compliance

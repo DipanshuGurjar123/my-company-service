@@ -8,6 +8,7 @@ import { services } from './data/services'
 import AboutUs from './component/AboutUs'
 import Industries from './component/Industries'
 import OurTeam from './component/OurTeam'
+import ClientBenefits from './component/ClientBenefits'
 
 const App = () => {
   return (
@@ -15,11 +16,14 @@ const App = () => {
       {/* <h1>My react App</h1> */}
       <Navbar />
       <Hero />
-      <Whychooseus />
       <Services />
-      <AboutUs />
       <Industries />
+      <Whychooseus />
+      
+      <AboutUs />
+      
       <OurTeam />
+      <ClientBenefits/>
     </div>
   )
 }
