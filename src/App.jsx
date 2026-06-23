@@ -9,6 +9,7 @@ import AboutUs from './component/AboutUs'
 import Industries from './component/Industries'
 import OurTeam from './component/OurTeam'
 import ClientBenefits from './component/ClientBenefits'
+import Contact from './component/Contact'
 
 const App = () => {
   return (
@@ -18,12 +19,11 @@ const App = () => {
       <Hero />
       <Services />
       <Industries />
-      <Whychooseus />
-      
+      <Whychooseus />  
       <AboutUs />
-      
       <OurTeam />
       <ClientBenefits/>
+      <Contact/>
     </div>
   )
 }
