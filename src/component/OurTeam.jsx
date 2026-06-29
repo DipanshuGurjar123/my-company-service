@@ -12,9 +12,11 @@ const OurTeam = () => {
 
     return (
 
-        <section className='max-w-7xl mx-auto px-6 py-4'>
+        <section className='max-w-7xl mx-auto px-6 py-4 bg-slate-900/10'>
             <div className='text-center mb-10'>
                 <h1 className='text-4xl font-bold mb-7 '>Our Team Members</h1>
+                <hr className="border-0 h-[1px] bg-gradient-to-r from-transparent via-gray-500 to-transparent" />
+                <br />
 
                 <div className='grid md:grid-cols-3 gap-8'>
                     {ourteamMembers.map((member) => (
@@ -30,7 +32,7 @@ const OurTeam = () => {
                 </div>
 
             </div>
-            <hr className="border-0 h-[1px] bg-gradient-to-r from-transparent via-gray-500 to-transparent" />
+            
         </section>
 
 

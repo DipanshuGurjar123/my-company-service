@@ -2,8 +2,8 @@ import React from 'react'
 
 const ClientBenefits = () => {
     return (
-        <div>
-            <div>
+        <div className='bg-slate-900/10'>
+            <div className='p-3 hover:bg-slate-900/10'>
                 <h1 className='flex justify-center font-bold text-3xl'>CLIENT BENEFITS</h1>
                 <div className='font-semibold '>
                     <h3>Organizations partnering with My gain: </h3>

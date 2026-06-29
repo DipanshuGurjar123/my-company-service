@@ -13,7 +13,7 @@ function Industries() {
     ];
 
     return (
-        <section className="max-w-7xl mx-auto px-6 py-20">
+        <section className="max-w-7xl mx-auto px-6 py-20 bg-slate-900/10">
             <div className="text-center mb-14">
                 <h1 className="text-4xl font-bold text-gray-800">
                     Industries We Serve

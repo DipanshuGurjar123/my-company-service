@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-gray-50 bg-slate-900/10">
             <div className="max-w-7xl mx-auto px-6">
 
                 <div className='grid md:grid-cols-2 gap-8'>
