@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-right flex-1 hover:scale-105 duration-500">
+      <div className="hero-right flex-1 hover:scale-105 duration-500 animate-pulse">
         <img
           src={heroImg}
           alt="Business Consulting"

@@ -3,9 +3,9 @@ import  aboutimage  from "../assets/pexels-yankrukov-7698796.jpg"
 
 const AboutUs = () => {
     return (
-        <div className=' m-6 rounded-xl shadow-md hover:shadow-xl transition duration-300'>
-            <section className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-10">
-                <div className="left-section flex-1">
+        <div className=' p-6 shadow-md hover:shadow-xl transition duration-300 bg-slate-900/10'>
+            <section className="max-w-7xl mx-auto px-6 rounded-xl py-12 flex flex-col md:flex-row items-center justify-between gap-10 ">
+                <div className="left-section flex-1 ">
                     <h1 className='text-4xl md:text-5xl font-bold text-gray-800'>About Us</h1>
 
                     <h1 className='mt-10 font-bold text-2xl'>Building Quality-Driven & <br />

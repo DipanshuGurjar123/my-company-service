@@ -2,8 +2,8 @@ import { whyChooseUs } from "../data/whychooseus";
 
 function WhyChooseUs() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-8">
-      <div className="text-center mb-14">
+    <section className="max-w-7xl mx-auto px-6 py-8 bg-slate-900/10">
+      <div className="text-center mb-14 ">
         <hr className="border-0 h-[1px] bg-gradient-to-r from-transparent via-gray-500 to-transparent" />
         <h2 className="text-4xl font-bold text-gray-800 p-4 ">
           Why Choose Us?
